@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+
+/* CSS ドキュメント */
+body {
+	border-top: #320000 10px solid;
+	border-bottom: #320000 10px solid;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+#wrapper {	
+	width: 850px;
+	text-align: center;
+	padding: 20px 10px 5px 10px;
+	margin: 0 auto 10px;
+}
+#header {
+	padding-bottom: 15px 0 5px 0; 
+}
+h1 {
+	text-align: left;
+	float: left;
+	width: 200px;
+	margin: 5px 20px;
+}
+#title {
+	line-height: 2em;
+	padding-bottom: 10px;
+}
+#title a:hover {
+	color: #6ac1dc;
+	text-decoration: none;
+} 
+#menu {
+	line-height; 5em;
+	float: right;
+	text-align: right;
+	font-weight: bold;
+	width: 700px;
+}
+p a {
+	padding: 5px 13px;
+}
+p.nav {
+	text-decoration: none;
+}
+/* -----------　ヘッダーここまで　----------*/
+
+#container {
+	padding: 5px;
+	margin: 0 auto;
+}
+#contents {
+	background: #260F00;
+	border: 1px #FFD700 solid;
+	color: #FFD700;
+	float: left;
+	height: 520px;
+	width: 200px;
+	padding: 10px;
+}
+ul {
+	text-align: left;
+}
+ul a {
+	color: #EED700;
+	text-decoration: none;
+}
+#pick {
+	border-bottom: 1px #FFD700 solid;
+	border-left: 3px #FFD700 double ;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 5px;
+	margin-top: 10px;
+	line-height: 2em;
+}
+ul li a {
+	font-size: 12px;
+	padding-left: 50px;
+	line-height: 1.7em;
+}
+
+
+
+
+#side {
+	background: url(../../vd/img/bg.jpg) left top repeat;
+	float: right;
+	height: 520px;
+	width: 590px;
+	margin-left: 10px;
+}
+.cho {
+
+	padding: 0;
+}
+.cho_box {
+	float: right;
+	width: 280px;
+	padding: 5px;
+	margin: 0px;
+	height: 230px;
+}
+div p img {
+	margin-top: 15px;
+}
+#cho2 {	
+	clear: both;
+	margin-top: 15px;
+}
+.hoka {
+	float: left;
+	width: 270px;
+}
+#hoka {
+	clear: both;
+}
+.hoka {
+	float: left;
+	width: 270px;
+}
+dl {
+	font-size: 11px;
+	margin: 3px;
+	padding: 2px;
+	padding-bottom: 15px;
+}
+dt {
+	border-bottom: 1px #FFD700 solid;
+}
+dd {
+	text-align: left;
+	line-height: 1.3em;
+}
+.shop {
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	background: #320000;
+	color: #FFD700;
+	line-height: 1.7em;
+}
+.good {
+	background: #FFD700;
+	text-align: center;
+	border: 1px #320000 dotted;
+	margin: 5px 0 2px 0;
+}
+
+
+
+
+/* -----------　フッターここから　----------*/
+
+#footer {
+	clear: both;
+	color: #320000;
+	font-size: 13px;
+	line-height: 1.7em;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+}
+#footer p {
+	background: #6ac1dc;
+	border-top: 1px #320000 solid;
+}
+
+/*---　go_top　--------------------*/
+
+#go_top {
+	width: 150px;
+	background: url(../../img/top.png) right bottom no-repeat;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+	position: fixed;
+	text-indent: -9999px;
+	right: 15px;
+	bottom: 50px;
+}
+#go_top a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 0;
+}
+

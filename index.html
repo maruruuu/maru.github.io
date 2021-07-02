@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="Porta（ポルタは）一日の利用人数が5万人ほどの●駅に隣接するショッピングセンターです。現在はバレンタインデーの特設販売を5階にて行っております。" /><!-- WEBサイトの説明文50～80文字程度 -->
+<meta name="keywords" content="キーワード1,キーワード2,キーワード3" /><!-- 検索をしてほしいキーワード8個程度 -->
+<meta name="copyright" content="ここに入力" /><!-- 著作権 -->
+<meta name="robots" content="NOINDEX,NOFOLLOW" /><!-- 検索ロボット -->
+<title>「Porta -ポルタ-」ショッピングセンター「Porta（ポルタ）」がもっと楽しめる情報サイト</title>
+<link rel="stylesheet" href="common/css/reset.css" type="text/css" media="all" />
+<link rel="stylesheet" href="common/css/style.css" type="text/css" media="all" />
+
+
+<script type="text/javascript" src="common/crossslide/jquery126_min.js"></script>
+<script type="text/javascript" src="common/crossslide/jquery_crossslide.js"></script>
+<script type="text/javascript">
+<!--
+	$(function() {
+		$('#box').crossSlide({
+		sleep: 2, //in sec
+		fade: 1   //in sec
+		},
+		[
+		{ src: 'img/top_1.jpg', href: 'vd/index.html' },
+		{ src: 'img/top_2.jpg', href: '' }
+		]);
+		});
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function m_win(url,windowname,width,height) {
+ var features="location=no, menubar=no, status=yes, scrollbars=yes, resizable=yes, toolbar=no";
+ if (width) {
+  if (window.screen.width > width)
+   features+=", left="+(window.screen.width-width)/2;
+  else width=window.screen.width;
+  features+=", width="+width;
+ }
+ if (height) {
+  if (window.screen.height > height)
+   features+=", top="+(window.screen.height-height)/2;
+  else height=window.screen.height;
+  features+=", height="+height;
+ }
+ window.open(url,windowname,features);
+}
+// -->
+</script>
+<script>
+<!-- 
+$(document).ready(function() {
+$('#pickup-slide-inner').each(function(){
+var loopsliderWidth = $(this).width();
+var loopsliderHeight = $(this).height();
+$(this).children('ul').wrapAll('<div id="loopslider_wrap"></div>');
+ 
+var child = $('#loopslider_wrap').children('ul').children('li');
+var listHeight = parseInt($(child).height());
+if ( !isNaN(parseInt($(child).css('margin-top'))) ) {
+listHeight += parseInt($(child).css('margin-top'));
+}
+if( !isNaN(parseInt($(child).css('margin-bottom'))) ) {
+listHeight += parseInt($(child).css('margin-bottom'));
+}
+ 
+if( !isNaN(parseInt($(child).css('padding-top'))) ) {
+listHeight += parseInt($(child).css('padding-top'));
+}
+if( !isNaN(parseInt($(child).css('padding-bottom'))) ) {
+listHeight += parseInt($(child).css('padding-bottom'));
+}
+var listCount = $('#loopslider_wrap').children('ul').children('li').length;
+ 
+var loopHeight = (listHeight)*(listCount);
+$('#loopslider_wrap').css({
+top: '0',
+left: '0',
+width: (loopsliderWidth),
+height: ((loopHeight) * 2),
+overflow: 'hidden',
+position: 'absolute'
+});
+ 
+$('#loopslider_wrap ul').css({
+height: (loopHeight)
+});
+loopsliderPosition();
+ 
+function loopsliderPosition(){
+$('#loopslider_wrap').css({top:'0'});
+$('#loopslider_wrap').stop().animate({top:'-' + (loopHeight) + 'px'},80000,'linear');
+setTimeout(function(){
+loopsliderPosition();
+},80000);
+};
+ 
+$('#loopslider_wrap ul').clone().appendTo('#loopslider_wrap');
+});
+ 
+});
+// -->
+</script>
+</head>
+<body>
+<!-- WEBサイトの表示領域・開始 -->
+<div id="wrapper">
+<div id="header">
+	<div id="title" class="clearfix">
+	<h1><img src="img/title.jpg" width="145" height="41" alt="ショッピングセンターPorta（ポルタ）" /><br /><p>http://porta.co.jp</p></h1>
+	
+	<div class="menu">
+	<form action="http://www.google.com/search" method="get">
+	<input type="hidden" name="hl" value="ja">
+	<input type="hidden" name="as_sitesearch" value="http://kunren.g-up.com/~gupk8-m06/">
+	<p><input class="text" type="text" name="q" size="30" value="">
+	<img src="img/search.png" width="26" height="27" alt="検索はこちらからどうぞ" /></p>
+	</form>
+	<gcse:search></gcse:search>
+	
+	<p class="nav"><a href="index.html">会社概要</a>｜<a href="index.html">営業時間のご案内</a>｜<a  href="index.html">お問い合わせ</a>｜<a  href="index.html">サイトマップ</a></p>
+	</div>
+
+	</div><!-- #titleの終わり -->
+
+	<ul class="nav_top" class="clearfix">
+		<li id="nav_top01"><a href="floor/floormap.html">フロアガイド</a></li>
+		<li><img src="img/menu_b.jpg" alt="" width="10" height="60" title=""　/></li>
+		<li id="nav_top02"><a href="floor/floormap.html">ショップ一覧</a></li>
+		<li><img src="img/menu_b.jpg" alt="" width="10" height="60" title=""　/></li>
+		<li id="nav_top03"><a href="floor/floormap.html">ショップニュース</a></li>
+		<li><img src="img/menu_b.jpg" alt="" width="10" height="60" title=""　/></li>
+		<li id="nav_top04"><a href="floor/floormap.html">レストラント＆カフェ</a></li>
+		<li><img src="img/menu_b.jpg" alt="" width="10" height="60" title=""　/></li>
+		<li id="nav_top05"><a href="floor/floormap.html">ポルタカード</a></li>
+		<li><img src="img/menu_b.jpg" alt="" width="10" height="60" title=""　/></li>
+		<li id="nav_top06"><a href="floor/floormap.html">交通アクセス</a></li>
+	</ul>
+
+</div><!-- #headerの終わり -->
+
+<!--
+ヘッダここまで
+-->
+
+
+
+<div id="main">
+
+	<div id="box"><h2>
+		「Porta2014ハッピーバレンタインデー」フェアー開催中！</h2>
+	</div><!-- #boxの終わり -->
+<!--
+メインここまで
+-->
+
+	<div id="sub_box" class="clearfix">
+
+
+
+
+<div class="pickup">
+<div id="pickup-slide-wrapper">
+<div id="pickup-slide-inner">
+<ul id="pickup-slide">
+<li><a href=""><a href="vd/indx.html"><img src="img/main_va.jpg" alt="「Porta2014ハッピーバレンタインデー」フェアー開催中！" width="200" height="160" title=""></a></li>
+<li><a href=""><img src="img/main_rest.jpg" alt="Portaレストラン＆カフェのご紹介です"  width="200" height="160"title=""></a></li>
+<li><a href=""><img src="img/main_va.jpg" alt="" width="200" height="160" title=""　/></a></li>
+<li><a href=""><img src="img/main_va.jpg" alt="" width="200" height="160" title=""></a></li>
+<li><a href=""><img src="img/main_va.jpg" alt="" width="200" height="160" title=""></a></li>
+<li><a href=""><img src="img/main_va.jpg" alt="" width="200" height="160" title=""></a></li>
+<li><a href=""><img src="img/main_va.jpg" alt="" width="200" height="160" title=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+	
+	</div><!-- #sub_boxの終わり -->
+</div><!-- #mainの終わり-->
+<!--
+サブボックスここまで
+-->
+
+<div id="container" class="cleafix">
+	<div id="contents">
+			<h3><img src="img/info.png" width="218" height="19" alt="Portaインフォメーション" />&nbsp;Portaからのお知らせ</h3>
+	<hr />
+		<p><img src="img/hr.jpg" width="520" height="3" alt="仕切り線" /></p>
+		<span class="new">
+   			<strong>2014/1/27up<a href="vd/indx.html">「2014HAPPY Valentaine's Day」</a>開始!</strong>
+			<p>今年もPortaではバレンタインデーフェアを開始しました。<br />去年より参加ショップも増えリニューアル！<br /><img src="img/topic_shop2.png" width="85" height="20" alt="Portaバレンタインデーフェア" /></p>
+		</span>
+		<dl>
+		<dt>2013/12/12up</dt><dd>Porta winter coection</dd>
+		<dt>2013/12/05up</dt><dd>～冬の限定メニュー＆冬季デザートフェア～</dd>
+		<dt>2013/11/13up</dt><dd>ポルタカード入会キャンペーン中</dd>
+		</dl>
+		
+			<h3><img src="img/topics.png" width="77" height="24" alt="Portaトピックス" /></h3>
+		<hr />
+		<p><img src="img/hr.jpg" width="520" height="3" alt="仕切り線" /></p>
+		<table>
+			<tr>
+			<th class="topic_title"><h4>5F新規OPEN!</h4></th>
+			<th class="topic_title"><h4>5F新規OPEN!</h4></th>
+			</tr>
+			<tr>
+			<td><img src="img/1.jpg" width="250" height="125" alt="「Portaレストラン＆カフェ」特集！" /></td>
+			<td><img src="img/2.jpg" width="250" height="125" alt="「Portaレストラン＆カフェ」特集！" /></td>
+			</tr>
+			<tr>
+			<td class="topic_box">
+				<p class="info">2013/12/10open!　人気のスタイリッシュなメガネブランドが開店しました！<a href="index.html" class="deta">詳細を見る</a></p>
+			</td>
+			<td class="topic_box">
+				<p class="info">2013/12/10open!　人気のスタイリッシュなメガネブランドが開店しました！<a href="index.html" class="deta">詳細を見る</a></p></td>
+			</tr>
+
+			<tr>
+			<th class="topic_title"><h4>5F新規OPEN!</h4></th>
+			<th class="topic_title"><h4>5F新規OPEN!</h4></th>
+			</tr>
+			<tr>
+			<td><img src="img/3.jpg" width="250" height="125" alt="「Portaレストラン＆カフェ」特集！" /></td>
+			<td><img src="img/4.jpg" width="250" height="125" alt="「Portaレストラン＆カフェ」特集！" /></td>
+			</tr>
+			<tr>
+			<td class="topic_box">
+				<p class="info">2013/12/10open!<br />人気のスタイリッシュなメガネブランドが開店しました！</p>
+				<p class="deta"><a href="index.html">メガネショップ「JINN」</a></p>
+			</td>
+			<td class="topic_box">
+				<p class="info">2013/12/10open!<br />人気のスタイリッシュなメガネブランドが開店しました！</p>
+				<p class="deta"><a href="index.html">メガネショップ「JINN」</a></p></td>
+			</tr>
+
+			<tr>
+			<th class="topic_title"><h4>5F新規OPEN!</h4></th>
+			<th class="topic_title"><h4>5F新規OPEN!</h4></th>
+			</tr>
+			<tr>
+			<td><img src="img/5.jpg" width="250" height="125" alt="「Portaレストラン＆カフェ」特集！" /></td>
+			<td><img src="img/6.jpg" width="250" height="125" alt="「Portaレストラン＆カフェ」特集！" /></td>
+			</tr>
+			<tr>
+			<td class="topic_box">
+				<p class="info">2013/12/10open!<br />人気のスタイリッシュなメガネブランドが開店しました！</p>
+				<p class="deta"><a href="index.html">メガネショップ「JINN」</a></p>
+			</td>
+			<td class="topic_box">
+				<p class="info">2013/12/10open!<br />人気のスタイリッシュなメガネブランドが開店しました！</p>
+				<p class="deta"><a href="index.html">メガネショップ「JINN」</a></p>
+			</td>
+			</tr>
+		</table>
+
+
+
+		<table id="sale">
+			<tr>
+			<td><img src="img/relax_b.jpg" width="163" height="200" alt="「リラクゼーションフェア」7Fにて開催中！" /></td>
+			<td><img src="img/clearsale_b.jpg" width="163" height="200" alt="冬のクリアランスセール" /></td>
+			<td><img src="img/coffee_b.jpg" width="163" height="200" alt="コーヒーの本場・コロンビアからコーヒー豆を直輸入しています。お手頃価格でご提供しています。" /></td>
+			</tr>
+			<tr>
+			<td class="fair"><p class="fair">[Relaxation Fair]</p>
+				<p class="info">寒い冬も暖かで安らかな眠りを提供します。体験コーナーにもぜひ足をお運び下さい。</p>
+			</td>
+			<td class="fair"><p class="fair">[Clearance SALE]</p>
+				<p class="info">冬のクリアランスセール全店舗で実施中！</p>
+
+			</td>
+			<td class="fair"><p class="fair">[SUPER COFFEE SALE}</p>
+				<p class="info">こだわりのコーヒー豆をコロンビアから直輸入！お手頃価格でご提供しています。</p>
+			</td>
+			</tr>
+
+		</table>
+
+
+	</div><!-- #contentsの終わり -->
+<!--
+コンテンツここまで
+-->
+
+	<div id="side" class="cleafix">
+		<ul>
+			<li><a href="vd/indx.html"><img src="img/top_1.jpg" width="300" height="175" alt="「Portaレストラン＆カフェ」特集！" /></a></li>
+<li><a  href="index.html"><img src="img/resta_mb.jpg" width="300" height="175" alt="「Portaレストラン＆カフェ」特集！" /></a></li>
+<li><a  href="index.html"><img src="img/relax_mb.jpg" width="300" height="75" alt="～安らぎをあなたに～リラクゼーションフェア" /></a></li>
+<li><a  href="index.html"><img src="img/card_mb.jpg" width="300" height="150" alt="「Portaカード」入会キャンペーン中！" /></a></li>
+<li><a  href="index.html"><img src="img/newlife_mb.jpg" width="300" height="75" alt="「Portaレストラン＆カフェ」特集！" /></a></li>
+<li><a  href="index.html"><img src="img/flower_mb.jpg" width="300" height="75" alt="「Portaレストラン＆カフェ」特集！" /></a></li>
+<li><a  href="index.html"><img src="img/cooking_mb.jpg" width="300" height="75" alt="「Portaレストラン＆カフェ」特集！" /></a></li>
+<li><a  href="index.html"><img src="img/gift_mb.jpg" width="300" height="75" alt="「Portaレストラン＆カフェ」特集！" /></a></li>
+		</ul>
+	<div id="porta">
+		<em>Porta　（株式会社ポルタ）</em>
+		<span class="inquiry">〒123-4567愛知県名古屋市中央区1-2-1<br />[TEL:052-1234-5678]<br />[営業時間:11:00～
+21:00]<br/>（レストランフロアは11:00～23:00まで）</span>
+<p><a href="map.html" onclick="m_win(this.href,'mywindow7',650,650); return false;"><img src="img/map.png" width="75" height="25" alt="Portaまでの地図が開きます" /></a></p>
+	</div>
+
+	</div><!-- #sideの終わり -->
+
+<!--
+サイドここまで
+-->
+
+</div><!-- "containerの終わり -->
+
+
+<!--
+コンテナここまでここまで
+-->
+
+
+
+
+
+</div><!-- #wapperの終わり -->
+
+
+
+
+
+<div id="footer">
+<ul class="guide cleafix">
+	<li class="midashi">特集</li>
+	<li><a  href="index.html">父の日</a></li>
+	<li><a  href="index.html">母の日</a></li>
+	<li><a  href="index.html">バレンタインデー</a></li>
+	<li><a  href="index.html">ホワイトデー</a></li>
+	<li><a  href="index.html">誕生日</a></li>
+	<li><a  href="index.html">クリスマス</a></li>
+</ul>
+<ul class="guide cleafix">
+	<li class="midashi">ギフト</li>
+	<li>おすすめギフト</li>
+	<li>快気祝い</li>
+</ul>
+<ul class="guide cleafix">
+	<li class="midashi">サービス</li>
+	<li>Portaカード</li>
+	<li>ポイントカード</li>
+	<li>ご自宅への配達サービス</li>
+	<li>保険のご案内</li>
+	<li>旅行のご案内</li>
+	</ul>
+<ul class="guide cleafix">
+	<li class="midashi">お問い合わせ</li>
+	<li>企業情報</li>
+	<li>採用情報</li>
+	<li>個人情報保護方針</li>
+	<li>環境問題に関係する取り組み</li>
+	<li>お問い合わせ</li>
+</ul>
+
+<p class="copy">Copyright&nbsp;&copy;&nbsp;Porta&nbsp;Ltd.&nbsp;All&nbsp;rights&nbsp;reserved.</p>
+<p id="go_top"><a href=#header>ページのトップへ戻る</a></p>
+</div><!-- #footerの終わり -->
+
+
+
+
+<!-- WEBサイトの表示領域・終了 -->
+</body>
+</html>

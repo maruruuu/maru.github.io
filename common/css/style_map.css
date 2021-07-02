@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+/* CSS ドキュメント */
+body {
+	background: url(../../img/footer.png) center 1600px no-repeat;
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+}
+a:link {
+	color: #320000;
+	text-decoration: none;
+}
+a:hover {
+	color: #6ac1dc;
+}
+#map {
+	height: 600px;
+	margin: auto;
+	padding: 5px;
+}
+h1 {
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+}
+p {
+	text-align: right;
+	margin-top: 15px;
+	padding-right: 15px;
+}
+ul{
+	text-align: left;
+	padding-left: 15px;
+	width: 300px;
+	margin: 0 auto;
+}
+.map {
+	border-left: 5px solid;
+	border-bottom: 1px solid;
+	font-size: 15px;
+	padding-left; 30px;
+}
+.map_sub {
+	margin-left: 30px;	
+}

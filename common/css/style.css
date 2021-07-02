@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+
+/* CSS ドキュメント */
+body {
+	background: url(../../img/footer.png) center 1710px no-repeat;
+	border-top: #320000 10px solid;
+	border-bottom: #320000 10px solid;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+}
+a {
+	color: #320000;
+	text-decoration: none;
+}
+a:hover {
+	color: #6ac1dc;
+}
+#wrapper {
+	background: #FFF;
+	width: 830px;
+	height: 1600px;
+	text-align: center;
+	padding: 20px 10px 5px 10px;
+	margin: 0 auto 400px auto;
+}
+#header {
+	padding-bottom: 5px; 
+}
+h1 {
+	text-align: left;
+	float: left;
+	width: 150px;
+	margin: 5px 20px;
+}
+h1 p {
+	color: #32000;
+	font-size: 12px;
+}
+#title {
+	line-height: 2em;
+}
+#title a:hover {
+	background: url(../../img/yajirushi.png) left center no-repeat;
+	color: #6ac1dc;
+	text-decoration: none;
+} 
+.menu {
+	line-height; 5em;
+	float: right;
+	text-align: right;
+	font-weight: bold;
+	width: 600px;
+}
+p a {
+	padding: 5px 13px;
+}
+.nav_top {
+	height: 60px;
+	width: 840px;
+	margin: 0 auto;
+}
+.nav_top li {
+	float: left;
+	height: 60px;
+}
+#nav_top01 {
+	background: url(../../img/menu1.jpg) left top no-repeat;
+	text-indent: -9999px;	
+	width: 146px;
+}
+#nav_top02 {
+	background: url(../../img/menu2.jpg) left top no-repeat;
+	text-indent: -9999px;
+	width: 114px;
+}
+#nav_top03 {
+	background: url(../../img/menu3.jpg) left top no-repeat;
+	text-indent: -9999px;
+	width: 140px;
+}
+#nav_top04 {
+	background: url(../../img/menu4.jpg) left top no-repeat;
+	text-indent: -9999px;
+	width: 199px;
+}
+#nav_top05 {
+	background: url(../../img/menu5.jpg) left top no-repeat;
+	text-indent: -9999px;
+	width: 79px;
+}
+#nav_top06 {
+	background: url(../../img/menu6.jpg) left top no-repeat;
+	text-indent: -9999px;
+	width: 99px;
+}
+.nav_top a {
+	display: block;
+	line-height: 60px;
+	-webkit-transition: 0.5s ease-in-out;
+	   -moz-transition: 0.5s ease-in-out;
+	     -o-transition: 0.5s ease-in-out;
+	        transition: 0.5s ease-in-out;
+}
+#nav_top01 a:hover {
+	background: url(../../img/menu1.jpg) no-repeat 0 bottom;
+}
+#nav_top02 a:hover {
+	background: url(../../img/menu2.jpg) no-repeat 0 bottom;
+}
+#nav_top03 a:hover {
+	background: url(../../img/menu3.jpg) no-repeat 0 bottom;
+}
+#nav_top04 a:hover {
+	background: url(../../img/menu4.jpg) no-repeat 0 bottom;
+}
+#nav_top05 a:hover {
+	background: url(../../img/menu5.jpg) no-repeat 0 bottom;
+}
+#nav_top06 a:hover {
+	background: url(../../img/menu6.jpg) no-repeat 0 bottom;
+}
+
+
+
+/* -----------　ヘッダーここまで　----------*/
+
+
+
+#box {
+	background: #FFF;
+	border: 0px dotted;
+	float: left;
+	width: 600px;
+	height: 350px;
+	margin: 0 auto;
+	text-align: left;
+}
+.pickup {
+	float: right;;
+	border: 1px dotted;
+	background: #320000;
+	height: 350px;
+	width: 220px;
+}
+.pickup img {
+	border: #F00 2px dotted;
+}
+#pickup-slide-wrapper {
+	width: 204px;
+	height: auto;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	}
+#pickup-slide-inner {
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+#pickup-slide-wrapper ul {
+	overflow: hidden;
+}
+#pickup-slide li {
+	width: auto;
+	height: 160px;
+	padding: 0;
+	vertical-align: middle;
+}
+ul li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+.pickup li {
+	padding: 0px 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.pickup li img {
+	vertical-align: middle;
+}
+
+
+
+
+#container {
+	margin-top: 5px;
+	padding-top: 0px;
+}
+#contents { 
+	float: left;
+	width: 510px;
+	padding-top: 10px;
+}
+span.new {
+	font-size: 12px;
+	line-height: 1.3em;
+	text-align: left;
+}
+span img {
+	text-align: right;
+	padding-left: 420px;
+	padding-bottom: 5px;
+	}
+strong {
+	color: #F04;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: left;
+	line-height: 1.8em;
+}
+h3 {
+	text-align: left;
+	background: url(../../img/yajirushi.png) left 15px no-repeat;
+	color: #F04;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+dl {
+	border-top: 1px dotted;
+	clear: both;
+	font-size: 13px;
+	text-align: left;
+}
+dt {
+	border-bottom: 1px dotted;
+	background: url(../../img/midashi.png) right top no-repeat;
+	float: left;
+	font-weight: bold;
+	width: 110px;
+}
+dd {
+	border-bottom: 1px dotted;
+	padding-left: 10px;
+}
+table {
+	width: 510px;
+}
+table a:hover {
+	color: #320000;
+	text-decoration: none;
+}
+.topic_title {
+	border-left: #6ac1dc 5px solid;
+}
+h4 {
+	color: #F04;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+.topic_box {
+	background: url(../../img/bg.jpg) right bottom no-repeat;
+	padding-left: 5px;
+}
+table img {
+	border: 1px solid;
+}
+#sale {
+	text-align: ceter;
+	padding: 4px;
+}
+.info {
+	font-size: 12px;
+	line-height: 1.3em;
+}
+td.fair {
+	padding: 0 2px;
+}
+.deta {
+	display: block;
+	color: #320000;
+	font-size: 11px;
+	text-align: right;
+	padding: 2px 5px 2px 5px;
+}
+#side {
+	float: right;
+	line-height: 2em;
+	padding-top: 10px;
+}
+#side img {
+	background: #320000;
+	border: 1px #000 solid;
+}
+#porta {
+	display: block;
+	background: #CFF;
+	border: #32000 1px solid;
+	line-height: 1.8em;
+	margin: 5px;
+}
+em {
+	background: #320000;
+	color: #FFF;
+	display: block;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 5px;
+}
+div p a img {
+	text-aling: right;
+}
+span.inquiry {
+	color: #320000;
+	line-height: 1.5em;
+	font-size: 12px;
+	padding-top: 15px;
+	margin: 10px;
+}
+
+
+
+/* -----------　フッターここから　----------*/
+#footer {
+	background: #6ac1dc;
+	color: #320000;
+	font-size: 12px;
+	height: 260px;
+	line-height: 1.7em;
+	text-align: left;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	width: 800px;
+}
+.guide {
+	float: left;
+	width: 200px;
+}
+#footer ul li {
+	padding: 0 35px;
+}
+ul .midashi {
+	border-left: 5px solid;
+	background: url(../../img/yajirushi.png) left top repeart;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px 15px;
+}
+li a:hover {
+	color: #F04;
+	text-decoration: none;
+}
+p.copy {
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	padding-top : 95px;
+}
+/*---　topへ戻るここから　--------------------*/
+#go_top {
+	width: 150px;
+	background: url(../../img/top.png) right bottom no-repeat;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+	text-indent: -9999px;
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+}
+#go_top a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 0;
+}

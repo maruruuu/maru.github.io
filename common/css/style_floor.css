@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+
+/* CSS ドキュメント */
+body {
+	background: url(../../img/footer.png) center 1600px no-repeat;
+	border-top: #320000 10px solid;
+	border-bottom: #320000 10px solid;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+}
+#wrapper {
+	background: #FFF;
+	width: 800px;
+	text-align: center;
+	padding: 20px 10px 5px 10px;
+	margin: 0 auto 10px;
+}
+
+
+#header {
+	padding-bottom: 5px; 
+}
+h1 {
+	text-align: left;
+	float: left;
+	width: 150px;
+	margin: 5px 20px;
+}
+h1 p {
+	color: #32000;
+	font-size: 12px;
+}
+#title {
+	line-height: 2em;
+}
+#title a:hover {
+	background: url(../../img/yajirushi.png) left center no-repeat;
+	color: #6ac1dc;
+	text-decoration: none;
+} 
+.menu {
+	line-height; 5em;
+	float: right;
+	text-align: right;
+	font-weight: bold;
+	width: 600px;
+}
+p a {
+	padding: 5px 13px;
+}
+/* -----------　ヘッダーここまで　----------*/
+
+#container {
+	padding: 5px;
+}
+#contents {
+	border: 1px solid;
+	float: left;
+	width: 590px;
+	padding: 10px;
+}
+h2 {
+	background: url(../../img/); left top no-repeat;
+}
+#map {
+	font-size: 12px;
+	width: 530px;
+}
+#map img {
+	padding-right: 5px;
+}
+#floor {
+	background: #CFF;
+	border: 1px solid;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 550px;
+	margin: 0 auto;
+	padding: 5px;
+}
+#fooer.1 a:hover {
+    background: #FFCC99;
+}
+#floor td p img {
+	border: 1px solid;
+	margin: 2px;
+}
+#floor th a:hover {
+	background: #FFF;
+}
+#floor tr {
+	height: auto;
+}
+#floor th {
+	background: #fff;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+.floor_subbox {
+	border-left: #6ac1dc 1px solid;
+	padding: 5px;
+}
+#floor td {	
+	padding: 5px;
+}
+#floor_1 {
+	background: # #CFF;
+}
+table.2 {
+	background: #FFF;
+}
+.guide {
+	font-size: 15px;
+	line-height: 2em;
+	font-weight: bold;
+}
+#map {
+	text-align: center;
+}
+
+
+#side {
+	float: right;
+	width: 170px;
+}
+
+#side p {
+	text-align: right;
+}
+.nav_side {
+	margin: 0 0 10px 0;
+	padding: 2px 8px;
+	border-bottom: 5px #6ac1dc solid;
+	background: #320000;
+	color: #FFF;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.nav_side1 {
+	margin: 0 0 10px 0;
+	padding: 2px 8px;
+	border-bottom: 5px #80CEDD solid;
+	background: #029EBC;
+	color: #EBF7FA;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+#nav1 a:hover {
+	background: url(../../img/nav_floor1.jpg) right top repeat;
+	height: 40px;	
+	width: 170px;
+}
+#nav2 a:hover {
+	background: url(../../img/nav_list1.jpg) right top no-repeat;
+	height: 40px;	
+	width: 170px;
+}
+#nav3 a:hover {
+	background: url(../../img/nav_shop1.jpg) right top no-repeat;
+	height: 40px;
+	width: 170px;	
+}
+#nav4 a:hover {
+	background: url(../../img/nav_rc1.jpg) right top no-repeat;
+	height: 40px;
+	width: 170px;	
+}
+#nav5 a:hover {
+	background: url(../../img/nav_card1.jpg) right top no-repeat;
+	height: 40px;
+	width: 170px;	
+}
+#nav6 a:hover {
+	background: url(../../img/nav_access1.jpg) right top no-repeat;
+	height: 40px;
+	width: 170px;	
+}
+ul li a {
+	display: block;
+}
+
+
+/* -----------　フッターここから　----------*/
+
+#footer {
+	clear: both;
+	color: #320000;
+	font-size: 13px;
+	line-height: 1.7em;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+}
+#footer p {
+	background: #6ac1dc;
+	border-top: 1px #320000 solid;
+}
+
+/*---　go_top　--------------------*/
+
+#go_top {
+	width: 150px;
+	background: url(../../img/top.png) right bottom no-repeat;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+	position: fixed;
+	text-indent: -9999px;
+	right: 15px;
+	bottom: 50px;
+}
+#go_top a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 0;
+}
+
